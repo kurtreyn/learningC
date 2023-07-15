@@ -1,0 +1,15 @@
+23:51:38 **** Incremental Build of configuration Debug for project LearningC ****
+make all 
+make: Nothing to be done for `all'.
+23:51:52 **** Incremental Build of configuration Debug for project LearningC ****
+make all 
+Building file: ../src/LearningC.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LearningC.d" -MT"src/LearningC.o" -o "src/LearningC.o" "../src/LearningC.c"
+Finished building: ../src/LearningC.c
+ 
+Building target: LearningC
+Invoking: MacOS X C Linker
+gcc  -o "LearningC"  ./src/LearningC.o   
+Finished building target: LearningC
+ 
